@@ -14,7 +14,7 @@ while (right<prices.length) {
             max_profit=diff
         }
         right+=1
-    }
+    };
 }
 return max_profit
 }

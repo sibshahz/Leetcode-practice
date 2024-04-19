@@ -1,4 +1,3 @@
-let array=['karachi','hydra','sukkar','multan','lahore','haripur']
 
 function calculate_distance(array,city1,city2) {
     if(array.includes(city1) && array.includes(city2)){
@@ -17,4 +16,5 @@ function calculate_distance(array,city1,city2) {
     }
    
 }
+let array=['karachi','hydra','sukkar','multan','lahore','haripur']
 calculate_distance(array,'hydra','haripur')
